@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Formularz</title>
+    </head>
+    <body>
+
+
+
+        
+        <div id="menuBackground">
+            <a href="Index.html"><div class="button" id="prz3">Strona Główna</div></a>
+            <a href="KierowcaLatifi.html"> <div class="button" id="prz1">Kierowca Latifi</div></a>
+            <a href="KierowcaAlbon.html"> <div class="button" id="prz2">Kierowca Albon</div></a>
+            <a href="kontakt.html"> <div class="button" id="prz4">Formularz</div></a>
+        </div>
+        <img src="Obrazki/266817662_4563839230390867_2467032978138584858_n.png" width="25%" height="30%" border="5px" id="Iloveyousomuchlatifi"style="position:absolute;right:50px;bottom:-500px;">
+
+
+        <h1>Jesteś fanem Zadzwoń lub napisz do nas:</h1>
+        
+        <h2>tel. 512 636 420 69</h2>
+        <h3>e-mail: Iloveyousomuchlatifi@gmail.com</h3>
+
+        <h1>Lub wypełnij formularz:</h1>
+        <form>
+
+            <label><h3>Dane personalne:</h3></label>
+            <label id="imieLabel">Imię:</label><br>
+            <input type="text" id="imie" name="imie"><br>
+            <label id="nazwiskoLabel">Nazwisko:</label><br>
+            <input type="text" id="nazwisko" name="nazwisko"><br><br>
+
+            <label><h3>Zgody:</h3></label>
+            <input type="checkbox">
+            <label>Chcę otrzymywać wiadomości od tej strony</label><br>
+            <input type="checkbox">
+            <label>Wyrażam zgodę na przetwarzanie danych osobowych w celu udzielenia odpowiedzi na moje pytanie</label><br><br>
+
+            <label><h3>Wybierz datę:</h3></label>
+            <input type="date"><br><br>
+
+            
+            <label><h3>Czego dotyczy wiadomość:</h3></label>
+            <input type="radio">
+            <label>Wiadomość dotyczy Problemu ze stroną</label><br>
+            <input type="radio">
+            <label>Wiadomość dotyczy Aktualizacji wiadomości na stronie</label><br>
+            <input type="radio">
+            <label>Wiadomość dotyczy Czegoś innego</label><br><br>
+
+            <label><h3>Dane kontaktowe (Gdzie możemy udzielić odpowiedzi):</h3></label>
+            <input type="text" id="kontakt" name="kontakt"><br><br>
+            
+            
+            <label><h3>Wiadomość:</h3></label>
+            <input id="message" type="text"><br>
+            <input type="submit">
+          </form>
+    </body>
+</html>
+
+<style>
+body{
+    background-color: #04214B;
+        color: whitesmoke;
+}
+
+#menuBackground{
+    width: 100%;
+    height: 60px;
+    background-color: #04214B;
+}
+
+.button{
+    background-color:#417CD1;
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin-left: 4%;
+    text-align: center;
+    font-size:40px;
+}
+
+.button:hover{
+    background-color:rgb(255, 255, 255);
+}
+
+.button:active{
+    background-color:rgb(102, 171, 255);
+}
+
+form{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(48, 48, 48);
+}
+#message{
+        width: 500px;
+        height: 500px;
+}
+#Iloveyousomuchlatifi{
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+}
+</style>
